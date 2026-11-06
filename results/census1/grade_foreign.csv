@@ -1,0 +1,4 @@
+repo_key,own_joss_doi,foreign_joss_doi,field,other_repo_in_joss,grade,reason
+mackelab/sbi,10.21105/joss.02505,10.21105/joss.07754,preferred-citation.doi,sbi-dev/sbi,deliberate,"Same project: the repository moved from mackelab/sbi to sbi-dev/sbi (GitHub serves the old path from the new repo), and the file asks users to cite the project's newer JOSS paper 'sbi reloaded' (2025). Live file read 2026-11-06."
+cosmo-epfl/chemiscope,10.21105/joss.02117,10.21105/joss.10380,preferred-citation.doi,lab-cosmo/chemiscope,deliberate,"Same project moved from cosmo-epfl to lab-cosmo; preferred-citation names its newer JOSS paper 'Chemiscope 1.0' (2026)."
+dib-lab/sourmash,10.21105/joss.00027,10.21105/joss.06830,preferred-citation.doi,sourmash-bio/sourmash,deliberate,"Same project moved from dib-lab to sourmash-bio; preferred-citation names its newer JOSS paper 'sourmash v4' (2024)."

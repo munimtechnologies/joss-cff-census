@@ -1,0 +1,5 @@
+repo_key,cff_version,license_value,zenodo_json,live_check_2026_11_06,note
+tum-esm/ivy,1.2.0,['cc-by-4.0'],404,"CITATION.cff still has license: [- cc-by-4.0]; .zenodo.json still 404","Exposed to the Zenodo list rejection (zenodo/zenodo-rdm#1509) if released through Zenodo's GitHub integration; the lower-case ID also fails the CFF enum on its own"
+islasgeci/nerd,1.2.0,['agpl-3.0-only'],404,"CITATION.cff still has license: [- agpl-3.0-only]; .zenodo.json still 404","Same exposure; lower-case ID also fails the CFF enum"
+nci/scores,1.2.0,list (schema-valid),200,not re-checked (has .zenodo.json),Zenodo reads .zenodo.json instead of the CFF
+qec-pages/qdistrnd,1.1.0,list,200,not re-checked (has .zenodo.json),Zenodo reads .zenodo.json instead of the CFF

@@ -1,0 +1,31 @@
+repo_key,first_listed_error,raw_file_evidence,confirmed
+martinlackner/abcvoting,required@<root> 'authors',no top-level authors key; authors appear only under preferred-citation (lines 16-24),yes
+salib/salib,anyOf@authors/*,line 6 orcid: "0000-0001-8173-0870" (bare iD; schema pattern needs https://orcid.org/...),yes
+cosima/regional-mom6,required@<root> 'authors',file has only cff-version and preferred-citation (no top-level authors/message/title),yes
+isce-framework/dolphin,oneOf@license,line 38 license: BSD-3-Clause OR Apache-2.0 (SPDX expression; schema wants one ID or a list of IDs),yes
+devsim/devsim,anyOf@preferred-citation/authors/*,line 27 middle-names: "E." (not a CFF person key),yes
+cyclotronresearchcentre/bidsme,anyOf@authors/*,line 6 orcid: "0https://orcid.org/009-0002-0830-3279" (malformed iD),yes
+dedalusproject/eigentools,required@<root> 'authors',file has only cff-version and preferred-citation,yes
+kpeeters/cadabra2,pattern@preferred-citation/doi,line 18 doi: doi.org/10.21105/joss.01118 (DOI must start 10.),yes
+nextstrain/augur,required@<root> 'authors',authors and title appear only under preferred-citation,yes
+mathlab/bladex,pattern@date-released,line 19 date-released: 2019-02-4 (day needs two digits),yes
+rahildoshi97/materforge,additionalProperties@<root>,line 9 contributors: (not a CFF key),yes
+fourierflows/geophysicalflows.jl,required@<root> 'authors',file has only cff-version and preferred-citation,yes
+nischalcs50/nsevdx,anyOf@authors/*,line 6 orcid: '0009-0004-3187-4920' (bare iD),yes
+ropensci/trud,type@date-released,line 19 date-released: 2026 (YAML integer; schema wants YYYY-MM-DD string),yes
+edwardberman/shopt,additionalProperties@<root>,line 9 year: 2023 (year is a reference key; not allowed at root),yes
+councildataproject/speakerbox,type@preferred-citation/publisher,line 86 publisher: "The Open Journal" (string; schema wants an entity object with name),yes
+dunnkers/fseval,type@preferred-citation/publisher,line 38 publisher: "The Open Journal" (string),yes
+dlr-rm/blenderproc,oneOf@license,line 6 license: GNU General Public License v3.0 (a name; schema wants an SPDX ID such as GPL-3.0-only),yes
+scivision/pymap3d,anyOf@authors/*,line 3 orcid: 0000-0002-1637-6526 (bare iD) on an entity author named SciVision,yes
+ufz/ogstools,anyOf@authors/*,line 24 oricd: (misspelt key),yes
+egonw/bacting,additionalProperties@preferred-citation,line 20 day: 23 (CFF references have month and year only),yes
+tldr-group/samba-web,anyOf@authors/*,line 5 orcid: 0000-0002-7332-0924 (bare iD) on a name-only author,yes
+mfouesneau/pyphot,anyOf@authors/*,line 9 orcid: 0000-0002-7214-8296 (bare iD; the same iD is a URL on line 22),yes
+juliagraphs/multilayergraphs.jl,required@preferred-citation/conference,line 25 conference: {} (entity needs name); also line 22 type: article-journal (a CSL type; not in the CFF enum),yes
+biomecis-lab/openomics,oneOf@license,line 11 license: cc-by-4.0 (lower case; the enum has CC-BY-4.0),yes
+fenics/basix,anyOf@preferred-citation/authors/*,line 10 orcid: 0000-0002-4658-2443 (bare iD),yes
+imperialcollegelondon/swmmanywhere,type@preferred-citation/publisher,line 24 publisher: "Elsevier" (string),yes
+cnes/lenapy,pattern@preferred-citation/doi,"line 17 doi: ""(submitted)""; volume/issue/start still xx although the paper is published as 10.21105/joss.09189",yes
+indigo-dc/deepaas,uniqueItems@keywords,lines 28-29 keyword http listed twice,yes
+sjvrijn/mf2,type@preferred-citation/publisher,line 31 publisher: "The Open Journal" (string),yes

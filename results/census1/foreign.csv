@@ -1,0 +1,4 @@
+repo_key,own_joss_dois,foreign_joss_id,kind,other_repo,fields,other_title
+mackelab/sbi,10.21105/joss.02505,7754,other_repo,sbi-dev/sbi,preferred-citation.doi,sbi reloaded: a toolkit for simulation-based inference workflows
+cosmo-epfl/chemiscope,10.21105/joss.02117,10380,other_repo,lab-cosmo/chemiscope,preferred-citation.doi,Chemiscope 1.0: interactive exploration of atomistic data from analysis to dissemination
+dib-lab/sourmash,10.21105/joss.00027,6830,other_repo,sourmash-bio/sourmash,preferred-citation.doi,"sourmash v4: A multitool to quickly search, compare, and analyze genomic and metagenomic data sets"
